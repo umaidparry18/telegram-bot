@@ -68,5 +68,5 @@ async def main():
             print("⚠️ Restarting due to error:", e)
             await asyncio.sleep(5)
 
-# ================== START ==================
+
 asyncio.run(main())
